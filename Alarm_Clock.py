@@ -41,10 +41,10 @@ def alarmC (user_time):
         if current == user_time:
             break
     for i in range (10):
-        winsound.Beep(2500,800)
-        winsound.Beep(2000,800)
-        winsound.Beep(1500,800)
-        winsound.Beep(1000,800)
+        winsound.Beep(2500,3000)
+        winsound.Beep(2000,3000)
+        winsound.Beep(1500,3000)
+        winsound.Beep(1000,3000)
 
 def main():
     user = intro()
